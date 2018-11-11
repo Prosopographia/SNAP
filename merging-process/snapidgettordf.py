@@ -4,9 +4,7 @@ import collections
 from collections import Counter
 from lxml import etree as ET
 
-
-filepath = "path/to/LGPN-PIRmapping.csv"
-
+filepath = ""
 reader = csv.reader(open(filepath, 'r'))
 l_big=[]
 
